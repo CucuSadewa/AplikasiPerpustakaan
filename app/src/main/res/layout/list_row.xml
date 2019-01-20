@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:padding="16dp"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<TextView
+    android:id="@+id/tv_id_buku"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="id_buku"
+    android:visibility="gone"/>
+
+<TextView
+    android:id="@+id/tv_judul_buku"
+    android:layout_marginBottom="5dp"
+    android:hint="Judul_Buku"
+    android:textStyle="bold"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+<TextView
+    android:id="@+id/tv_nama_peminjam"
+    android:layout_width="wrap_content"
+    android:textStyle="bold"
+    android:layout_height="wrap_content"
+    android:hint="Nama Peminjam"/>
+
+    <TextView
+        android:id="@+id/tv_no_telepone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No Telepone"/>
+
+    <TextView
+        android:id="@+id/tv_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"/>
+
+    <TextView
+        android:id="@+id/tv_tgl_pinjam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tgl Pinjam"/>
+
+    <TextView
+        android:id="@+id/tv_tgl_kembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tgl Kembali"/>
+
+
+</LinearLayout>
